@@ -7,6 +7,8 @@ import com.example.lab2grupo2.entity.Proveedor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -18,7 +20,7 @@ public class ArtistaController {
     @Autowired
     ArtistaRepository artistaRepository;
 
-
+    @GetMapping("/listar")
     public String listaArtistas (Model model){
         List<Artista> lista = artistaRepository.findAll();
         model.addAttribute("listaArtistas",lista);
@@ -26,9 +28,28 @@ public class ArtistaController {
 
 
 
-        return "proveedores/lista";
+        return "Artista/lista";
     }
 
+
+    @GetMapping("/nuevo")
+    public String nuevaArtista(){
+
+
+        return "Artista/nuevo";
+
+    };
+
+
+    @PostMapping("/guardar")
+    public String guardarArtista( Artista artista){
+
+        artistaRepository.save(artista);
+        return "redirect:/Artista/listar";
+
+
+
+    };
 
 
 }

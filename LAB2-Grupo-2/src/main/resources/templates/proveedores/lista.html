@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <h2>Lista Proveedores</h2>
-    <a class="btn btn-primary mt-4 mb-4" th:href="@{/nuevo}">Nuevo Proveedor</a>
+    <a class="btn btn-primary mt-4 mb-4" th:href="@{/Proveedor/nuevo}">Nuevo Proveedor</a>
     <table class="table table-sm">
         <tr>
             <th>#</th>
@@ -21,7 +21,7 @@
             <th></th>
             <th></th>
         </tr>
-        <tr th:each="proveedor,obj: ${lista}">
+        <tr th:each="proveedor,obj: ${listaProveedores}">
             <td th:text="${obj.index+1}"> </td>
             <td th:text="${proveedor.Nombre}"></td>
             <td th:text="${proveedor.Telefono}"></td>
