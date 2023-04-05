@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="43513c75-a957-41fb-8e77-d29b8d545647" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ArtistaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ArtistaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/IntegranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/IntegranteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/construccion.html" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/construccion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/inicio.html" afterDir="false" />
+=======
+    <list default="true" id="43513c75-a957-41fb-8e77-d29b8d545647" name="Changes" comment="cambios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ArtistaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ArtistaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/IntegranteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/IntegranteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ProveedoresController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/java/com/example/lab2grupo2/Controllers/ProveedoresController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/proveedores/lista.html" beforeDir="false" afterPath="$PROJECT_DIR$/LAB2-Grupo-2/src/main/resources/templates/proveedores/lista.html" afterDir="false" />
+>>>>>>> 0f6f9d223bab3a79e2bb46e4e579af7d5339c279
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,30 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/rodro/Downloads/-LAB2-Grupo-6",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "8459c81f4e5e5db4e7aae2cc08eb4d4e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rodro/Downloads/-LAB2-Grupo-6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8459c81f4e5e5db4e7aae2cc08eb4d4e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -97,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
 </project>
