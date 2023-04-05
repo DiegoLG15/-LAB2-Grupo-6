@@ -1,0 +1,9 @@
+INSERT INTO `concierto` VALUES (1,'2003-09-12',1,1),(2,'2005-09-12',2,2),(3,'2007-10-11',3,3),(4,'2009-11-03',4,4),(5,'2012-01-09',5,5),(6,'2013-03-08',6,6),(7,'2018-09-01',7,7),(8,'2015-05-05',8,8),(9,'2013-06-06',9,9),(10,'2012-07-10',10,10);
+
+
+
+INSERT INTO `integrantes` VALUES (1,'Elmer Yaipen',55,25,'baterista',1),(2,'Marco Solis',25,4,'baterista',2),(3,'Salomon Cabrera',37,12,'guitarrista',3),(4,'Saul Rodriguez',32,7,'pianista',4),(5,'Carla Perez',30,6,'cantante',5),(6,'Lola Mar',28,4,'dj',6),(7,'Lula Silva',23,5,'cantante',7),(8,'Camilo Solar',28,9,'pianista',8),(9,'Camila Rodas',33,6,'guitarrista',9),(10,'Tito Nieves',37,16,'cantante',10);
+
+INSERT INTO `proveedores` VALUES (1,'Otto Kuns',980347768,'embutidos'),(2,'Laive',980347768,'quesos'),(3,'San Fernando',945678123,'carnes'),(4,'gloria',986345123,'lacteos'),(5,'Zucarita',912543123,'cereales'),(6,'Milo',956345134,'bebida'),(7,'Nescafe',998345134,'cafe'),(8,'Donofrio',934745134,'helados'),(9,'Yolu',923451234,'plasticos'),(10,'Carlesi',976123654,'juguetes');
+
+INSERT INTO `artistas` VALUES (1,'Grupo 5','1992-04-08','cumbia'),(2,'Hermanos Yaipen','1993-05-08','cumbia'),(3,'Rafaga','1998-05-08','cumbia'),(4,'RealBand','1999-07-09','rock'),(5,'falseBand','1993-01-03','rock'),(6,'Blues Band','1998-01-03','blues'),(7,'Red Band','1992-11-11','country'),(8,'Max Band','1994-10-09','country'),(9,'Black Band','1998-10-03','rock'),(10,'Armonia 10','1992-11-08','cumbia');
